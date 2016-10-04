@@ -1,0 +1,128 @@
+/*
+  STYLE GUIDE STYLING 
+  Default styling for the style guide 
+*/
+body {
+  font-family: 'Open sans', Arial, sans-serif;
+  padding: 2rem;
+  color: #FFF;
+  background-color: #4B595A;
+}
+
+code{
+  color: #000;
+}
+
+section:not([id]) {
+  margin: 1em 0;
+  padding: 0.5em 0;
+  border-top: 1px solid #333;
+}
+
+section h3 {
+  margin-bottom: 0;
+}
+
+section p {
+  margin-top: 0;
+}
+
+section code {
+  background-color: #EEE;
+  padding: 0.5em 0.75em;
+}
+
+
+/* 
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+h1, h2{
+  font-family: 'Axis';
+}
+
+/* Styling for the navigation button */
+.button-nav {
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  color: #FFF;
+  background-color: #5CA7BA;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.button-nav:hover, .button-nav:focus {
+  background-color: #C7EDE9;
+}
+
+
+
+.in-text-link {
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  color: #5CA7BA;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.in-text-link:hover, .in-text-link:focus {
+  color: #C7EDE9;
+}
+
+
+.button {
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  color: #FFF;
+  border-radius: 0.55em;
+  background-color: #5CA7BA;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.button:hover, .button:focus {
+  background-color: #C7EDE9;
+}
+
+/* 
+  TEXT ELEMENTS -------------------
+*/
+
+.headings {
+  font-family: 'Axis', Arial, sans-serif;
+  font-size: 2rem;
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  color: #FFF;
+  background-color: #4B595A;
+}
+
+.paragraphs {
+  font-family: 'Open sans', Arial, sans-serif;
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  color: #FFF;
+  background-color: #4B595A;
+}
+
+.unordered-list {
+  display: inline-block;
+  list-style-type: circle;
+  padding: 0.5em 2em;
+  color: #FFF;
+  background-color: #4B595A;
+}
+
+.ordered-list {
+  display: inline-block;
+  list-style-type: lower-alpha;
+  padding: 0.5em 2em;
+  color: #FFF;
+  background-color: #4B595A;
+}
+/* 
+  COMBINED ELEMENTS -------------------
+*/
