@@ -52,10 +52,12 @@
 
 	.grid-col-2of3 {
 		width: 66.666%;
+		padding-right: 1rem;
 	}
 
 	.grid-col-1of3 {
 		width: 33.333%;
+		padding-right: 1rem;
 	}
 
 	.grid-col-1of4 {
