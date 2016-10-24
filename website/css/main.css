@@ -117,3 +117,8 @@ code, samp {
 .button:hover, .button:focus {
   background-color: #C7EDE9;
 }
+
+.comment-input {
+	width: 50%;
+	height: 10rem;
+}
