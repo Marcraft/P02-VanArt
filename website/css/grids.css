@@ -22,6 +22,10 @@
 	width: 100%;
 }
 
+.grid-col-1of5 {
+	width: 20%;
+}
+
 
 @media (min-width: 48.75em) {
 
@@ -30,11 +34,15 @@
 	}
 
 	.grid-col-1of2:last-of-type {
-		padding-left: 1rem;
+		padding-right: 1rem;
 	}
 
 	.grid-col-1of4 {
 		width: 50%;
+	}
+
+	.grid-col-1of5 {
+		width: 20%;
 	}
 }
 
@@ -48,12 +56,16 @@
 
 	.grid-col-1of3 {
 		width: 33.333%;
-		padding-left: 1rem;
 	}
 
 	.grid-col-1of4 {
 		width: 25%;
 	}
+
+	.grid-col-1of5 {
+		width: 20%;
+	}
+
 
 }
 
