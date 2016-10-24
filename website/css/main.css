@@ -1,12 +1,3 @@
-.nav-main{
-	position:fixed;
-	top:0;
-	left:0;
-	right:0;
-	z-index:10;
-
-
-}
 
 .caption-inside{
 	position:relative;
@@ -24,10 +15,18 @@
 
 
 body {
-	font-family: "Quan", Verdana, sans-serif;
-	margin: 1rem;
-	font-size: 1.25rem;
+	font-family: 'Open sans', Arial, sans-serif;
+  	padding: 2rem;
+  	color: #FFF;
+ 	background-color: #4B595A;
+ 	max-width: 1024px;
+ 	margin: 0 auto;
 }
+
+h1, h2{
+ 	 font-family: 'Axis';
+}
+
 
 h1 {
 	font-size: 3rem;
@@ -79,29 +78,23 @@ code, samp {
 	padding: 0.5rem;
 }
 
-.nav-main-item {
-	display: inline-block;
-	color: white;
-	background-color: rgb(250,100,75);
-	font-size: 1.5rem;
-	padding: 0.25rem 0.5rem;
-	text-decoration: none;
-	transition: background-color 0.5s ease-out;
+.top-title {
+  background-color: #5CA7BA;
+  right: 0;
+  left: 0;
+
 }
 
-.bg1 {
-	background-color: purple;
+.button-nav {
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  color: #FFF;
+  background-color: #5CA7BA;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
 }
 
-.bg2 {
-	background-color: green;
-}
-
-.bg3 {
-	background-color: blue;
-}
-
-.nav-main-item:active, .nav-main-item:hover, .nav-main-item:focus {
-	color: white;
-	background-color: rgb(50,50,50);
+.button-nav:hover, .button-nav:focus {
+  background-color: #C7EDE9;
 }
