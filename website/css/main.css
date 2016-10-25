@@ -54,6 +54,17 @@ figcaption {
 	font-style: italic;
 }
 
+a img{
+	background-color: #ffffff;
+	-webkit-transition: opacity 0.5s ease-in-out;
+	transition: opacity 0.5s ease-in-out;
+	opacity: 0.6;
+}
+
+a img:active, a img:hover, a img:focus{
+	opacity: 1.0;
+}
+
 .top-title h1 {
 	margin: 0;
 	margin-bottom: 1rem;
