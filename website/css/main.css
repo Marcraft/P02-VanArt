@@ -27,9 +27,6 @@ h1, h2{
  	 font-family: 'Axis';
 }
 
-h2{
-	margin-top: 0;
-}
 
 
 img {
@@ -127,6 +124,22 @@ code, samp {
 }
 
 .button:hover, .button:focus {
+  background-color: #C7EDE9;
+}
+
+.login-button {
+  position: relative;
+  padding: 0.5em 0.75em;
+  left: 80%;
+  color: #FFF;
+  border-radius: 0.55em;
+  background-color: #4B595A;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.login-button:hover, .login-button:focus {
   background-color: #C7EDE9;
 }
 
