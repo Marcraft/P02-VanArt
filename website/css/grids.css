@@ -8,7 +8,13 @@
 	
 }
 
-.grid-col-1of2, .grid-col-1of4, .grid-col-1of3, .grid-col-2of3, .grid-col-1of5 {
+.grid-col-1of2, .grid-col-1of4, .grid-col-1of3, .grid-col-2of3 {
+	width: 100%;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+}
+
+.grid-col-1of5{
 	width: 100%;
 }
 
@@ -22,6 +28,11 @@
 	width: 100%;
 }
 
+.login-button {
+	right: 10%;
+}
+
+
 
 
 @media (min-width: 620px) {
@@ -31,7 +42,8 @@
 	}
 
 	.grid-col-1of2:last-of-type {
-		padding-right: 1rem;
+		padding-left: 0.5rem;
+		padding-right: 0.5rem;
 	}
 
 	.grid-col-1of4 {
@@ -44,13 +56,21 @@
 
 	.grid-col-2of3 {
 		width: 66.666%;
-		padding-right: 1rem;
+		padding-left: 0.5rem;
+		padding-right: 0.5rem;
 	}
 
 	.grid-col-1of3 {
 		width: 33.333%;
-		padding-right: 1rem;
+		padding-left: 0.5rem;
+		padding-right: 0.5rem;
 	}
+
+	.login-button {
+		right: 10%;
+	}
+
+	
 
 }
 
@@ -60,12 +80,14 @@
 
 	.grid-col-2of3 {
 		width: 66.666%;
-		padding-right: 1rem;
+		padding-left: 0.5rem;
+		padding-right: 0.5rem;
 	}
 
 	.grid-col-1of3 {
 		width: 33.333%;
-		padding-right: 1rem;
+		padding-left: 0.5rem;
+		padding-right: 0.5rem;
 	}
 
 	.grid-col-1of4 {
@@ -76,6 +98,13 @@
 		width: 20%;
 	}
 
+	.grid-col-4of5 {
+		width: 80%;
+	}
+
+	.login-button {
+		right: 30%;
+	}
 
 }
 

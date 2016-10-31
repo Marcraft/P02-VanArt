@@ -16,7 +16,7 @@
 
 body {
 	font-family: 'Open sans', Arial, sans-serif;
-  	padding: 2rem;
+  	padding: 0, 2rem, 2rem, 2rem;
   	color: #FFF;
  	background-color: #4B595A;
  	max-width: 1024px;
@@ -140,9 +140,10 @@ code, samp {
 }
 
 .login-button {
-  position: relative;
+	position: absolute;
   padding: 0.5em 0.75em;
-  left: 80%;
+	right: 30%;
+  top: 1rem;
   color: #FFF;
   border-radius: 0.55em;
   background-color: #4B595A;
