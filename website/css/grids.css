@@ -14,6 +14,11 @@
 	padding-right: 0.5rem;
 }
 
+h1, h2, p{
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
 .grid-col-1of5{
 	width: 100%;
 }
@@ -35,7 +40,7 @@
 
 
 
-@media (min-width: 620px) {
+@media (min-width: 38rem) {
 
 	.grid-col-1of2 {
 		width: 50%;
@@ -76,7 +81,7 @@
 
 
 
-@media (min-width: 1024px) {
+@media (min-width: 65rem) {
 
 	.grid-col-2of3 {
 		width: 66.666%;
@@ -105,6 +110,10 @@
 	.login-button {
 		right: 30%;
 	}
+
+	h1, h2, p{
+	padding-left: 0;
+}
 
 }
 

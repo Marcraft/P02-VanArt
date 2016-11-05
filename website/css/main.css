@@ -19,15 +19,13 @@ body {
   	padding: 0, 2.5rem, 2.5rem, 2.5rem;
   	color: #FFF;
  	background-color: #4B595A;
- 	max-width: 1024px;
+ 	max-width: 65rem;
  	margin: 0 auto;
 }
 
 h1, h2{
  	 font-family: 'Axis';
 }
-
-
 
 img {
 	height: auto; 
