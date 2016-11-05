@@ -63,7 +63,13 @@ a img:active, a img:hover, a img:focus{
 
 .top-title h1 {
 	margin: 0;
-	margin-bottom: 1rem;
+	margin-bottom: 0.5rem;
+}
+
+.top-line{
+	padding: 0;
+	margin: 0;
+	border-top: 1px solid #333;
 }
 
 .top-link {
@@ -92,6 +98,7 @@ code, samp {
 }
 
 .button-nav {
+	margin-top: 0.5rem;
   	display: inline-block;
   	width: 100%;
 
@@ -140,6 +147,7 @@ code, samp {
 
 .login-button {
 	position: absolute;
+	margin: 0;
   padding: 0.5em 0.75em;
 	right: 30%;
   top: 1rem;
@@ -149,6 +157,10 @@ code, samp {
   text-decoration: none;
   -webkit-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;
+}
+
+.login{
+	margin: 0;
 }
 
 .login-button:hover, .login-button:focus {
