@@ -37,6 +37,20 @@ h1, h2, p{
 	display:inline-block;
 }
 
+.booking-form {
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.booking-form-row{
+	padding: 0.5rem 0rem;
+}
+
+.booking-form-label{
+	width: 9.2rem;
+	display:inline-block;
+}
+
 .grid-col-1of5{
 	width: 100%;
 }
@@ -137,8 +151,13 @@ h1, h2, p{
 	}
 
 	.feedback-form {
-	padding-left: 1rem;
+		padding-left: 1rem;
 	}
+
+	.booking-form{
+		padding-left: 1rem;
+	}
+
 
 	.button-nav {
 		margin-top: 0.5rem;
