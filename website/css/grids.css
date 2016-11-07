@@ -129,15 +129,15 @@ h1, h2, p{
 	}
 
 	.login-button {
-		right: 25%;
+		right: 5%;
 	}
 
 	h1, h2, p{
-		padding-left: 0;
+		padding-left: 1rem;
 	}
 
 	.feedback-form {
-	padding-left: 0;
+	padding-left: 1rem;
 	}
 
 	.button-nav {
