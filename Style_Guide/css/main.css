@@ -123,6 +123,10 @@ h1, h2{
   color: #FFF;
   background-color: #4B595A;
 }
+
+.text-input{
+  background-color: #c3c3c3;
+}
 /* 
   COMBINED ELEMENTS -------------------
 */
