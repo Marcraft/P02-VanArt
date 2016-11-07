@@ -171,3 +171,8 @@ code, samp {
 	width: 50%;
 	height: 10rem;
 }
+
+.text-input {
+ background-color: #c3c3c3;
+ border-width : 0;
+}
