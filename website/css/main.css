@@ -177,3 +177,17 @@ code, samp {
  background-color: #c3c3c3;
  border-width : 0;
 }
+
+.unordered-list {
+  list-style-type: circle;
+  padding: 0.5em 2em;
+  color: #FFF;
+  background-color: #4B595A;
+}
+
+.ordered-list {
+  list-style-type: lower-alpha;
+  padding: 0.5em 2em;
+  color: #FFF;
+  background-color: #4B595A;
+}

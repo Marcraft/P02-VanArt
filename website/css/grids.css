@@ -51,7 +51,7 @@ h1, h2, p{
 	display:inline-block;
 }
 
-.grid-col-1of5{
+.grid-col-2of8{
 	width: 100%;
 }
 
@@ -87,8 +87,8 @@ h1, h2, p{
 		width: 50%;
 	}
 
-	.grid-col-1of5 {
-		width: 20%;
+	.grid-col-2of8 {
+		width: 25%;
 	}
 
 	.grid-col-2of3 {
@@ -134,8 +134,8 @@ h1, h2, p{
 		width: 25%;
 	}
 
-	.grid-col-1of5 {
-		width: 20%;
+	.grid-col-2of8 {
+		width: 25%;
 	}
 
 	.grid-col-4of5 {
