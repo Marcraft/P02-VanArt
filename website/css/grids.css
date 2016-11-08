@@ -69,6 +69,10 @@ h1, h2, p{
 	right: 10%;
 }
 
+textarea{
+	width: 100%;
+}
+
 
 
 
@@ -110,6 +114,10 @@ h1, h2, p{
 
 	.button-nav {
 		margin-top: 0.5rem;
+	}
+
+	textarea{
+		width: 38rem;
 	}
 
 }
@@ -161,6 +169,10 @@ h1, h2, p{
 
 	.button-nav {
 		margin-top: 0.5rem;
+	}
+
+	textarea{
+		width: 38rem;
 	}
 }
 
