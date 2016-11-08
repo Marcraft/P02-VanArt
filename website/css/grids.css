@@ -5,13 +5,13 @@
 [class^='grid-col-'] {
 	float: left;
 	padding: 0; 
-	margin-bottom: 1rem;
 }
 
 .grid-col-1of2, .grid-col-1of4, .grid-col-1of3, .grid-col-2of3 {
 	width: 100%;
 	padding-left: 0.5rem;
 	padding-right: 0.5rem;
+	margin-bottom: 1rem;
 }
 
 .button-nav {
