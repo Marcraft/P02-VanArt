@@ -5,7 +5,7 @@
 [class^='grid-col-'] {
 	float: left;
 	padding: 0; 
-	
+	margin-bottom: 1rem;
 }
 
 .grid-col-1of2, .grid-col-1of4, .grid-col-1of3, .grid-col-2of3 {
