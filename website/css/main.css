@@ -16,7 +16,10 @@
 
 body {
 	font-family: 'Open sans', Arial, sans-serif;
-  	padding: 0, 2.5rem, 2.5rem, 2.5rem;
+  	padding-top: 0;
+  	padding-right: 2.5rem;
+  	padding-bottom: 2.5rem;
+  	padding-left: 2.5rem;
   	color: #FFF;
  	background-color: #4B595A;
  	max-width: 65rem;

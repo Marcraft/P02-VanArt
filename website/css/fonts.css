@@ -5,7 +5,7 @@
 	font-family: 'Open sans';
 	font-weight: normal;
 	font-style: normal;
-	src: url('../fonts/Axis Extrabold.otfOpenSans-Regular.ttf');
+	src: url('../fonts/OpenSans-Regular.ttf');
 }
 
 @font-face {
@@ -13,3 +13,4 @@
 	font-weight: normal;
 	font-style: normal;
 	src: url('../fonts/Axis Extrabold.otf');
+}
